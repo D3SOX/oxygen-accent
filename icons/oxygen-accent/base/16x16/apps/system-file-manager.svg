@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.0" id="Livello_1" width="16" height="16" viewBox="0 0 120 119.557" overflow="visible" enable-background="new 0 0 120 119.557" xml:space="preserve" sodipodi:version="0.32" inkscape:version="0.45.1" sodipodi:docname="system-file-manager.svgz" inkscape:output_extension="org.inkscape.output.svgz.inkscape" style="overflow:visible" sodipodi:docbase="/home/david/Icons/Oxygen/trunk/scalable/apps/small/16x16" inkscape:export-filename="/home/david/dolphin.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90"><style id="current-color-scheme" type="text/css">
+.ColorScheme-Accent { color:#3daee9; }
+</style><defs id="defs287"><linearGradient inkscape:collect="always" id="linearGradient3275"><stop style="stop-color:#000000;stop-opacity:1;" offset="0" id="stop3277"/><stop style="stop-color:#000000;stop-opacity:0;" offset="1" id="stop3279"/></linearGradient><linearGradient id="linearGradient3299" inkscape:collect="always"><stop id="stop3301" offset="0" style="stop-color:#fefefe;stop-opacity:1"/><stop id="stop3303" offset="1" style="stop-color:#dddddd;stop-opacity:1"/></linearGradient><linearGradient inkscape:collect="always" id="linearGradient4070"><stop style="stop-color:#ffffff;stop-opacity:1;" offset="0" id="stop4072"/><stop style="stop-color:#ffffff;stop-opacity:0;" offset="1" id="stop4074"/></linearGradient><linearGradient inkscape:collect="always" id="linearGradient4034"><stop style="stop-color:#eeeeee;stop-opacity:1" offset="0" id="stop4036"/><stop style="stop-color:#dddddd;stop-opacity:1" offset="1" id="stop4038"/></linearGradient><linearGradient inkscape:collect="always" xlink:href="#linearGradient4034" id="linearGradient4115" gradientUnits="userSpaceOnUse" x1="52.653542" y1="114.77328" x2="52.653542" y2="10.455668" gradientTransform="matrix(1,0,0,0.8571429,-2.4883362e-6,16.039782)"/><svg:g class="ColorScheme-Accent"><svg:radialGradient inkscape:collect="always" xlink:href="#XMLID_40_" id="radialGradient4117" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.9123249,0,0,1.5158086,1.3151235,-11.424455)" cx="60.214153" cy="50.697399" fx="60.56406" fy="46.362309" r="45.214153"/></svg:g><svg:g class="ColorScheme-Accent"><svg:radialGradient inkscape:collect="always" xlink:href="#XMLID_40_" id="radialGradient4119" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.9123249,0,0,1.8947608,1.3151235,15.774808)" cx="60.214153" cy="50.697399" fx="60.56406" fy="46.362309" r="45.214153"/></svg:g><linearGradient inkscape:collect="always" xlink:href="#linearGradient4070" id="linearGradient4121" gradientUnits="userSpaceOnUse" x1="84.354332" y1="30.357241" x2="50.338581" y2="125.04807" gradientTransform="matrix(1,0,0,0.7142856,-2.4883362e-6,29.936718)"/><linearGradient inkscape:collect="always" xlink:href="#linearGradient4070" id="linearGradient4123" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,0.5714286,-2.4883362e-6,-9.4934e-2)" x1="84.354332" y1="30.357241" x2="50.338581" y2="125.04807"/><linearGradient inkscape:collect="always" xlink:href="#linearGradient3299" id="linearGradient2313" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,0.1428571,-2.4883362e-6,6.2387137)" x1="52.653542" y1="114.77328" x2="36.590549" y2="-156.22154"/><linearGradient inkscape:collect="always" xlink:href="#linearGradient3275" id="linearGradient3281" x1="56.125984" y1="9.0376034" x2="56.125984" y2="19.432892" gradientUnits="userSpaceOnUse"/><svg:radialGradient inkscape:collect="always" xlink:href="#XMLID_40_-accent-shading" id="radialGradient4117-accent-shading" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.9123249,0,0,1.5158086,1.3151235,-11.424455)" cx="60.214153" cy="50.697399" fx="60.56406" fy="46.362309" r="45.214153"/><svg:radialGradient inkscape:collect="always" xlink:href="#XMLID_40_-accent-shading" id="radialGradient4119-accent-shading" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.9123249,0,0,1.8947608,1.3151235,15.774808)" cx="60.214153" cy="50.697399" fx="60.56406" fy="46.362309" r="45.214153"/><svg:radialGradient id="XMLID_40_-accent-shading" cx="59.859901" cy="60.001499" r="65.890404" gradientTransform="matrix(0.9769,0,0,1,1.387,0)" gradientUnits="userSpaceOnUse">
+	<svg:stop offset="0.2604" style="stop-color:#ffffff;stop-opacity:0.6274509803921569"/>
+	<svg:stop offset="0.7988" style="stop-color:#ffffff;stop-opacity:0.25490196078431365"/>
+	<svg:stop offset="1" style="stop-color:#000000;stop-opacity:0.02941176470588225"/>
+</svg:radialGradient>
+
+<mask id="original-oxygen-icon-bounds" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0.0" y="0.0" width="120.0" height="119.557"><path d="M2,1h11v1h-11zM1,2h13v1h-13zM1,3h13v1h-13zM1,4h13v1h-13zM1,5h13v1h-13zM1,6h13v1h-13zM1,7h13v1h-13zM1,8h13v1h-13zM1,9h13v1h-13zM1,10h13v1h-13zM1,11h13v1h-13zM1,12h13v1h-13zM1,13h13v1h-13zM1,14h13v1h-13z" fill="#ffffff" transform="translate(0.0,0.0) scale(7.5,7.4723125)"/></mask><mask id="original-oxygen-shadows" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0.0" y="0.0" width="120.0" height="119.557"><path d="M2,0h11v1h-11zM1,1h1v1h-1zM13,1h1v1h-1zM0,2h1v1h-1zM14,2h1v1h-1zM0,3h1v1h-1zM14,3h1v1h-1zM0,4h1v1h-1zM14,4h1v1h-1zM0,5h1v1h-1zM14,5h1v1h-1zM0,6h1v1h-1zM14,6h1v1h-1zM0,7h1v1h-1zM14,7h1v1h-1zM0,8h1v1h-1zM14,8h1v1h-1zM0,9h1v1h-1zM14,9h1v1h-1zM0,10h1v1h-1zM14,10h1v1h-1zM0,11h1v1h-1zM14,11h1v1h-1zM0,12h1v1h-1zM14,12h1v1h-1zM0,13h1v1h-1zM14,13h1v1h-1zM0,14h1v1h-1zM14,14h1v1h-1zM0,15h15v1h-15z" fill="#ffffff" transform="translate(0.0,0.0) scale(7.5,7.4723125)"/></mask></defs><svg:g mask="url(#original-oxygen-shadows)"><svg:image x="0.0" y="0.0" width="120.0" height="119.557" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGzSURBVHjanZM/TBNhGMZ/1ztOCDRCGlqDMTWcGzI10cStCSEO4MAKi3HVxIGFf6NhrnFwuy4MOup2A5OKDAwMutVBG/4kdMC21/ZKez7DNYQcNtZf8ibf8DxPvu9574wwDEEYhpEFHtIfifkqzy8irMh8r1Ao7OTz+Qc60w/P8/akWVHIDyKyxWLxs+/74b+O67qfkE8hGMBiqVT6wIA4jvNEAR97T2DhbY3McMDsLTjed3lffEOP5WfPmZ17SqMJZ4HN6vwYVzpIJBI0mwHm3RykYXzS48XGNrYFBpCZus30/RznVTg5OED6qwG94pI23NBkl9ZIp2AiCUPSBk2o16ALRPp4QKtV5/j7Lu0yHI3BuMymBYhOB34rwPehEVjSp+NP2N9yGID4DR6/rjA1GjCj8PKey7u/lFhp26wvpOI3qDcCgjs5wkmYyHi83NzGNC9LdFRitQan/UoctRUmk7O4RiYF6ZswYqINwbnMF4gwXmKUKLEFlsYe0tgySFftQgedZexGI/31Wyh/26XxE8rJaAsmQiaF6BugVodW27p+jYevZvgfDCAFPGJwvuhfqPwB25vCkOvr78wAAAAASUVORK5CYII="/></svg:g><svg:g mask="url(#original-oxygen-icon-bounds)"><svg:filter id="AI_Sfocatura_4">
+	<svg:feGaussianBlur stdDeviation="4" id="feGaussianBlur4"/>
+</svg:filter>
+<svg:filter id="AI_Sfocatura_3">
+	<svg:feGaussianBlur stdDeviation="3" id="feGaussianBlur7"/>
+</svg:filter>
+
+<svg:radialGradient id="XMLID_33_" cx="36" cy="8.6669998" r="136.1048" gradientUnits="userSpaceOnUse">
+	<svg:stop offset="0" style="stop-color:#c7c8c6;stop-opacity:1;" id="stop14"/>
+	<svg:stop offset="0.6213" style="stop-color:#EEEEEC" id="stop16"/>
+	<svg:stop offset="0.6787" style="stop-color:#E8E8E6" id="stop18"/>
+	<svg:stop offset="0.7569" style="stop-color:#D7D9D4" id="stop20"/>
+	<svg:stop offset="0.8465" style="stop-color:#BCBFB8" id="stop22"/>
+	<svg:stop offset="0.8521" style="stop-color:#BABDB6" id="stop24"/>
+	<svg:stop offset="1" style="stop-color:#888A85" id="stop26"/>
+</svg:radialGradient>
+
+<svg:linearGradient id="XMLID_34_" gradientUnits="userSpaceOnUse" x1="60.0005" y1="113" x2="60.0005" y2="27.0005">
+	<svg:stop offset="0" style="stop-color:#888A85" id="stop31"/>
+	<svg:stop offset="1" style="stop-color:#161716;stop-opacity:1;" id="stop33"/>
+</svg:linearGradient>
+
+<svg:g class="ColorScheme-Accent"><svg:linearGradient id="XMLID_35_" gradientUnits="userSpaceOnUse" x1="60" y1="57.0005" x2="60" y2="32.001999">
+	<svg:stop offset="0" style="stop-color:currentColor" id="stop38" class="ColorScheme-Accent"/>
+	<svg:stop offset="1" style="stop-color:currentColor" id="stop40" class="ColorScheme-Accent"/>
+</svg:linearGradient>
+
+</svg:g><svg:linearGradient id="XMLID_36_" gradientUnits="userSpaceOnUse" x1="60.0005" y1="23.667" x2="60.0005" y2="-0.333">
+	<svg:stop offset="0" style="stop-color:#D3D7CF" id="stop45"/>
+	<svg:stop offset="1" style="stop-color:#888A85" id="stop47"/>
+</svg:linearGradient>
+
+<svg:linearGradient id="XMLID_37_" gradientUnits="userSpaceOnUse" x1="59.9995" y1="22.0278" x2="59.9995" y2="24.0278">
+	<svg:stop offset="0" style="stop-color:#d3d7cf;stop-opacity:0;" id="stop52"/>
+	<svg:stop offset="1" style="stop-color:#FFFFFF" id="stop54"/>
+</svg:linearGradient>
+
+
+<svg:g class="ColorScheme-Accent"><svg:linearGradient id="XMLID_39_" gradientUnits="userSpaceOnUse" x1="60.0005" y1="112" x2="60.0005" y2="61">
+	<svg:stop offset="0" style="stop-color:currentColor" id="stop68" class="ColorScheme-Accent"/>
+	<svg:stop offset="1" style="stop-color:currentColor" id="stop70" class="ColorScheme-Accent"/>
+</svg:linearGradient>
+
+</svg:g><svg:g class="ColorScheme-Accent"><svg:radialGradient id="XMLID_40_" cx="59.859901" cy="60.001499" r="65.890404" gradientTransform="matrix(0.9769,0,0,1,1.387,0)" gradientUnits="userSpaceOnUse">
+	<svg:stop offset="0.2604" style="stop-color:currentColor" id="stop75" class="ColorScheme-Accent"/>
+	<svg:stop offset="0.7988" style="stop-color:currentColor" id="stop77" class="ColorScheme-Accent"/>
+	<svg:stop offset="1" style="stop-color:currentColor" id="stop79" class="ColorScheme-Accent"/>
+</svg:radialGradient>
+
+</svg:g><svg:linearGradient id="XMLID_41_" gradientUnits="userSpaceOnUse" x1="64.1875" y1="24.1675" x2="56.454102" y2="57.639198">
+	<svg:stop offset="0" style="stop-color:#ffffff;stop-opacity:1;" id="stop84"/>
+	<svg:stop offset="1" style="stop-color:#ffffff;stop-opacity:0.29113925;" id="stop86"/>
+</svg:linearGradient>
+
+<svg:g class="ColorScheme-Accent"><svg:radialGradient id="XMLID_42_" cx="59.859402" cy="61.601601" r="66.173798" gradientTransform="matrix(0.9769,0,0,1,1.387,0)" gradientUnits="userSpaceOnUse">
+	<svg:stop offset="0.2604" style="stop-color:currentColor" id="stop91" class="ColorScheme-Accent"/>
+	<svg:stop offset="0.7988" style="stop-color:currentColor" id="stop93" class="ColorScheme-Accent"/>
+	<svg:stop offset="1" style="stop-color:currentColor" id="stop95" class="ColorScheme-Accent"/>
+</svg:radialGradient>
+
+</svg:g><svg:linearGradient id="XMLID_43_" gradientUnits="userSpaceOnUse" x1="74.484398" y1="45.179199" x2="54.374699" y2="95.453499">
+	<svg:stop offset="0" style="stop-color:#FFFFFF" id="stop100"/>
+	<svg:stop offset="1" style="stop-color:#ffffff;stop-opacity:0.25316456;" id="stop102"/>
+</svg:linearGradient>
+
+
+
+<svg:linearGradient id="XMLID_52_" gradientUnits="userSpaceOnUse" x1="60" y1="60.9995" x2="60" y2="58">
+	<svg:stop offset="0" style="stop-color:#FFFFFF" id="stop207"/>
+	<svg:stop offset="0.1065" style="stop-color:#D3D7CF" id="stop209"/>
+	<svg:stop offset="0.8" style="stop-color:#D3D7CF" id="stop211"/>
+	<svg:stop offset="1" style="stop-color:#FFFFFF" id="stop213"/>
+</svg:linearGradient>
+
+<svg:linearGradient id="XMLID_53_" gradientUnits="userSpaceOnUse" x1="59.9995" y1="57" x2="59.9995" y2="58">
+	<svg:stop offset="0" style="stop-color:#888A85" id="stop218"/>
+	<svg:stop offset="1" style="stop-color:#555753" id="stop220"/>
+</svg:linearGradient>
+
+<svg:radialGradient id="XMLID_54_" cx="60" cy="113.8516" r="33.1549" gradientUnits="userSpaceOnUse">
+	<svg:stop offset="0" style="stop-color:#323232" id="stop225"/>
+	<svg:stop offset="1" style="stop-color:#FFFFFF" id="stop227"/>
+</svg:radialGradient>
+
+<svg:linearGradient id="XMLID_55_" gradientUnits="userSpaceOnUse" x1="60" y1="32" x2="60" y2="29">
+	<svg:stop offset="0" style="stop-color:#FFFFFF" id="stop232"/>
+	<svg:stop offset="0.1065" style="stop-color:#D3D7CF" id="stop234"/>
+	<svg:stop offset="0.8" style="stop-color:#D3D7CF" id="stop236"/>
+	<svg:stop offset="1" style="stop-color:#FFFFFF" id="stop238"/>
+</svg:linearGradient>
+
+<svg:linearGradient id="XMLID_56_" gradientUnits="userSpaceOnUse" x1="59.9995" y1="28" x2="59.9995" y2="29">
+	<svg:stop offset="0" style="stop-color:#888A85" id="stop243"/>
+	<svg:stop offset="1" style="stop-color:#555753" id="stop245"/>
+</svg:linearGradient>
+
+<svg:linearGradient id="XMLID_57_" gradientUnits="userSpaceOnUse" x1="59.9995" y1="58.0005" x2="59.9995" y2="61.0005" gradientTransform="matrix(1,0,0,-0.6667,0,101.6672)">
+	<svg:stop offset="0" style="stop-color:#FFFFFF" id="stop250"/>
+	<svg:stop offset="1" style="stop-color:#000000" id="stop252"/>
+</svg:linearGradient>
+
+<svg:g class="ColorScheme-Accent"><svg:linearGradient id="XMLID_58_" gradientUnits="userSpaceOnUse" x1="59.9995" y1="54.431599" x2="59.9995" y2="56.981098">
+	<svg:stop offset="0" style="stop-color:currentColor;stop-opacity:0" id="stop257" class="ColorScheme-Accent"/>
+	<svg:stop offset="1" style="stop-color:currentColor;stop-opacity:1" id="stop259" class="ColorScheme-Accent"/>
+</svg:linearGradient>
+
+</svg:g><svg:linearGradient id="XMLID_59_" gradientUnits="userSpaceOnUse" x1="60.0005" y1="34" x2="60.0005" y2="32">
+	<svg:stop offset="0" style="stop-color:#000000;stop-opacity:0;" id="stop264"/>
+	<svg:stop offset="1" style="stop-color:#000000" id="stop266"/>
+</svg:linearGradient>
+
+<svg:linearGradient id="XMLID_60_" gradientUnits="userSpaceOnUse" x1="13.8301" y1="112.5" x2="106.1699" y2="112.5">
+	<svg:stop offset="0" style="stop-color:#FFFFFF" id="stop271"/>
+	<svg:stop offset="0.5" style="stop-color:#DDDDDD" id="stop273"/>
+	<svg:stop offset="1" style="stop-color:#FFFFFF" id="stop275"/>
+</svg:linearGradient>
+
+<svg:g class="ColorScheme-Accent"><svg:linearGradient id="XMLID_61_" gradientUnits="userSpaceOnUse" x1="59.9995" y1="109.4316" x2="59.9995" y2="111.9807">
+	<svg:stop offset="0" style="stop-color:#FFFFFF" id="stop280"/>
+	<svg:stop offset="1" style="stop-color:currentColor" id="stop282" class="ColorScheme-Accent"/>
+</svg:linearGradient>
+
+</svg:g><svg:g inkscape:groupmode="layer" id="layer1"><svg:path style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;overflow:visible;opacity:0.6" d="M 3 1 L 1 3 L 1 15 L 14 15 L 14 3 L 11.96875 1 L 3 1 z " id="path2316" transform="matrix(7.5,0,0,7.5,0,-0.2215)"/><svg:rect y="22.2785" x="7.5" height="90" width="97.5" id="rect2359" style="fill:url(#linearGradient4115);fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;overflow:visible"/><svg:g opacity="1.0"><svg:rect y="29.778496" x="15" height="30" width="82.5" id="rect3330" style="fill:url(#radialGradient4117);stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;overflow:visible"/><svg:rect y="29.778496" x="15" height="30" width="82.5" id="rect3330-accent-shading" style="fill:url(#radialGradient4117-accent-shading);stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;overflow:visible"/></svg:g><svg:g opacity="1.0"><svg:rect style="fill:url(#radialGradient4119);stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;overflow:visible" id="rect3658" width="82.5" height="37.5" x="15" y="67.278503"/><svg:rect style="fill:url(#radialGradient4119-accent-shading);stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;overflow:visible" id="rect3658-accent-shading" width="82.5" height="37.5" x="15" y="67.278503"/></svg:g><svg:path style="opacity:0.5;fill:url(#linearGradient4121);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;overflow:visible" d="M 14.999998,67.2785 L 97.5,104.7785 L 97.5,67.2785 L 14.999998,67.2785 z " id="path4068"/><svg:path id="path4078" d="M 14.999998,29.778495 L 97.5,59.778495 L 97.5,29.778495 L 14.999998,29.778495 z " style="opacity:0.5;fill:url(#linearGradient4123);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;overflow:visible"/><svg:rect y="29.778496" x="37.5" height="15" width="37.5" id="rect4016" style="opacity:0.70792081;fill:#555555;fill-opacity:1;stroke:none;stroke-width:7.50000143;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;overflow:visible"/><svg:rect style="opacity:0.2;fill:none;fill-opacity:1;stroke:#000000;stroke-width:7.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;overflow:visible" id="rect4042" width="75" height="22.500002" x="18.75" y="33.528496"/><svg:rect style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:7.50000143;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;overflow:visible" id="rect4013" width="22.500008" height="7.5000005" x="45" y="29.778496"/><svg:rect style="opacity:0.70792081;fill:#555555;fill-opacity:1;stroke:none;stroke-width:7.50000143;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;overflow:visible" id="rect4018" width="37.5" height="15" x="37.5" y="67.278503"/><svg:rect y="71.028503" x="18.75" height="29.99999" width="75" id="rect4044" style="opacity:0.2;fill:none;fill-opacity:1;stroke:#000000;stroke-width:7.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;overflow:visible"/><svg:rect y="67.278503" x="45" height="7.5000005" width="22.500008" id="rect4020" style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:7.50000143;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;overflow:visible"/><svg:g opacity="0.22772277"><svg:rect y="52.278496" x="15" height="7.4999967" width="82.5" id="rect4094" style="fill:currentColor;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;overflow:visible" class="ColorScheme-Accent"/><svg:rect y="52.278496" x="15" height="7.4999967" width="82.5" id="rect4094-accent-shading" style="fill:#000000;fill-opacity:0.5490196078431373;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;overflow:visible"/></svg:g><svg:g opacity="0.22772277"><svg:rect style="fill:currentColor;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;overflow:visible" id="rect4098" width="82.5" height="7.4999967" x="15" y="97.278503" class="ColorScheme-Accent"/><svg:rect style="fill:#000000;fill-opacity:0.5490196078431373;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;overflow:visible" id="rect4098-accent-shading" width="82.5" height="7.4999967" x="15" y="97.278503"/></svg:g><svg:path style="fill:url(#linearGradient2313);fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;overflow:visible" d="M 22.429134,7.2785001 L 89.692913,7.2785001 L 105,22.2785 L 7.5,22.2785 L 22.429134,7.2785001 z " id="rect2311" sodipodi:nodetypes="ccccc"/><svg:path sodipodi:nodetypes="ccccc" id="path2304" d="M 22.429134,7.2785001 L 89.692913,7.2785001 L 105,22.2785 L 7.5,22.2785 L 22.429134,7.2785001 z " style="fill:url(#linearGradient3281);fill-opacity:1.0;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;overflow:visible;opacity:0.16981132"/><svg:rect y="3.5284958" x="22.51181" height="3.75" width="67.476387" id="rect3283" style="opacity:0.0990566;fill:#000000;fill-opacity:1;stroke:none;stroke-width:7.50000143;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;overflow:visible"/></svg:g></svg:g></svg>

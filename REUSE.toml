@@ -1,0 +1,37 @@
+# SPDX-License-Identifier: CC0-1.0
+# SPDX-FileCopyrightText: 2026 D3SOX
+version = 1
+SPDX-PackageName = "oxygen-accent"
+SPDX-PackageDownloadLocation = "https://github.com/D3SOX/oxygen-accent"
+
+[[annotations]]
+path = ["plasma/**"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["The Oxygen Project <kde-artists@kde.org>", "2026 D3SOX"]
+SPDX-License-Identifier = "GPL-3.0-or-later"
+
+[[annotations]]
+path = ["icons/**"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = [
+    "2007 Nuno Pinheiro <nuno@oxygen-icons.org>",
+    "2007 David Vignoni <david@icon-king.com>",
+    "2007 David Miller <miller@oxygen-icons.org>",
+    "2007 Johann Ollivier Lapeyre <johann@oxygen-icons.org>",
+    "2007 Kenneth Wimer <kwwii@bootsplash.org>",
+    "2007 Riccardo Iaconelli <riccardo@oxygen-icons.org>",
+    "2026 D3SOX"
+]
+SPDX-License-Identifier = "LGPL-3.0-or-later"
+
+[[annotations]]
+path = ["README.md", ".gitignore"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 D3SOX"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = ["screenshots/**"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["The Oxygen Project <kde-artists@kde.org>", "2026 D3SOX"]
+SPDX-License-Identifier = "GPL-3.0-or-later"

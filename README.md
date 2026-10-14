@@ -1,0 +1,56 @@
+# Oxygen Accent
+
+Oxygen Accent makes Oxygen's Plasma lighting and blue icon details follow your KDE accent color. Both appear as **Oxygen Accent** in System Settings. The original Oxygen themes stay untouched.
+
+The icon theme covers folders, Dolphin, navigation arrows, and standard toolbar symbols. It inherits the remaining icons from Oxygen. Application logos, named folder colors, and colored status badges keep their original colors.
+
+## Install
+
+You need KDE Plasma 6 and the Oxygen icon pack. On Arch Linux, install the `oxygen-icons` package if you don't have it.
+
+```sh
+git clone https://github.com/D3SOX/oxygen-accent.git
+cd oxygen-accent
+./install.sh
+```
+
+The installer uses `~/.local/share`, or `$XDG_DATA_HOME` if set. It backs up any existing Oxygen Accent copies and prints the backup path.
+
+In System Settings:
+
+1. Select **Oxygen Accent** under **Plasma Style**.
+2. Select **Oxygen Accent** under **Icons**.
+3. Choose your accent color under **Colors**.
+
+You can use either theme on its own. If an app keeps its old icons, close and reopen it. If the panel keeps its old icons, log out and back in.
+
+## Screenshots
+
+Purple accent with Dolphin and the Plasma calendar.
+
+![Oxygen Accent with a purple accent](screenshots/purple.png)
+
+Green accent with the same themes.
+
+![Oxygen Accent with a green accent](screenshots/green.png)
+
+These screenshots use example folders in a hidden virtual Plasma session with a separate profile.
+
+## Remove
+
+Switch to another Plasma style and icon theme, then delete the two installed copies:
+
+```sh
+data_dir="${XDG_DATA_HOME:-$HOME/.local/share}"
+rm -rf -- "$data_dir/plasma/desktoptheme/oxygen-accent" "$data_dir/icons/oxygen-accent"
+```
+
+## Credits and licenses
+
+The Oxygen Project and KDE created the original artwork. D3SOX added the accent support.
+
+The Plasma artwork comes from [Oxygen](https://invent.kde.org/plasma/oxygen/-/tree/master/desktoptheme/oxygen) 6.7.91 and uses GPL-3.0-or-later.
+
+The icons use LGPL-3.0-or-later. They use raster artwork from Oxygen Icons 6.31 and [upstream SVG sources](https://github.com/KDE/oxygen-icons/tree/e8f611eff071966bc3522c355673b380d525e5ba/scalable).
+
+The installer uses the MIT license. See [LICENSES](LICENSES) and [REUSE.toml](REUSE.toml) for the license texts and artwork credits.
