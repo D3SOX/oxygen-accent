@@ -34,7 +34,9 @@ Green accent with the same themes.
 
 ![Oxygen Accent with a green accent](screenshots/green.png)
 
-These screenshots use example folders in a hidden virtual Plasma session with a separate profile.
+The screenshots also use Oxygen's application style and window decorations. To match them, select Oxygen under Application Style and Window Decorations. On Arch Linux, the `oxygen` package provides these components.
+
+The screenshots use example folders in a hidden virtual Plasma session with a separate profile.
 
 ## Remove
 
