@@ -47,7 +47,7 @@ jobs:
         run: |
           if gh release view "$RELEASE_TAG" --json isDraft --jq .isDraft > /tmp/oxygen-release-draft; then
             if [ "$(cat /tmp/oxygen-release-draft)" = false ]; then
-              echo 'The GitHub release is already published. Continuing with KDE Store.'
+              echo 'The GitHub release is already published.'
               exit 0
             fi
             gh release upload "$RELEASE_TAG" dist/*.tar.gz --clobber
@@ -57,37 +57,3 @@ jobs:
               --verify-tag --draft --title "Oxygen Accent ${RELEASE_TAG#v}" --generate-notes
           fi
           gh release edit "$RELEASE_TAG" --draft=false --latest
-
-  kde-store:
-    needs: release
-    if: github.event_name != 'workflow_dispatch' || inputs.publish
-    runs-on: ubuntu-26.04
-    timeout-minutes: 15
-    concurrency:
-      group: kde-store
-      cancel-in-progress: false
-    steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-        with:
-          persist-credentials: false
-      - uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2.2.0
-      - run: bun install --frozen-lockfile
-      - run: bun run test
-      - name: Check publishing credentials
-        env:
-          KDE_STORE_USERNAME: ${{ secrets.KDE_STORE_USERNAME }}
-          KDE_STORE_PASSWORD: ${{ secrets.KDE_STORE_PASSWORD }}
-        run: |
-          if [ -z "$KDE_STORE_USERNAME" ] || [ -z "$KDE_STORE_PASSWORD" ]; then
-            echo '::error::Add KDE_STORE_USERNAME and KDE_STORE_PASSWORD in the repository Actions secrets, then rerun this job.'
-            exit 1
-          fi
-      - run: bunx playwright install --with-deps chromium
-      - name: Publish versioned KDE Store entries
-        env:
-          GH_TOKEN: ${{ github.token }}
-          RELEASE_TAG: ${{ inputs.tag || github.ref_name }}
-          KDE_STORE_USERNAME: ${{ secrets.KDE_STORE_USERNAME }}
-          KDE_STORE_PASSWORD: ${{ secrets.KDE_STORE_PASSWORD }}
-          KDE_STORE_HEADED: '1'
-        run: xvfb-run --auto-servernum node .github/scripts/kde-store.mjs
