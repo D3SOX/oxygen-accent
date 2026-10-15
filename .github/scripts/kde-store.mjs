@@ -123,11 +123,13 @@ async function main() {
     const page = await browser.newPage();
     page.setDefaultTimeout(120_000);
     console.log('Opening the KDE Store login page.');
-    await page.goto('https://store.kde.org/login/', { waitUntil: 'domcontentloaded' });
+    const response = await page.goto('https://store.kde.org/login/', { waitUntil: 'domcontentloaded' });
     try {
       await page.locator('input[name="mail"]').waitFor();
     } catch {
-      throw new Error(`Store login form was unavailable. Page title: ${await page.title()}`);
+      const address = new URL(page.url());
+      const text = (await page.locator('body').innerText()).slice(0, 300);
+      throw new Error(`Store login form was unavailable. HTTP ${response?.status()}, ${address.origin}${address.pathname}, title: ${await page.title()}, response: ${text}`);
     }
     await page.locator('input[name="mail"]').fill(username);
     await page.locator('input[name="password"]').fill(password);
