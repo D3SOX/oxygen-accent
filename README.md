@@ -20,6 +20,10 @@ See upstream's [window-glow settings](https://invent.kde.org/plasma/oxygen/-/blo
 
 You need KDE Plasma 6.8 or newer and the Oxygen icon pack. On Arch Linux, install the `oxygen-icons` package if you don't have it.
 
+Download the Plasma style or icon archive from [the latest release](https://github.com/D3SOX/oxygen-accent/releases/latest). Use **Install from File** under Plasma Style or Icons in System Settings.
+
+To install both from source:
+
 ```sh
 git clone https://github.com/D3SOX/oxygen-accent.git
 cd oxygen-accent
@@ -50,6 +54,21 @@ The screenshots also use Oxygen's application style and window decorations. To m
 
 The screenshots use example folders in a hidden virtual Plasma session with a separate profile.
 
+## Releases
+
+Versions use the Oxygen release followed by a fork revision. For example, `6.8.0-1` is the first fork release based on Oxygen 6.8.0.
+
+Update `KPlugin.Version` in `plasma/oxygen-accent/metadata.json`, commit the changes, then create and push the matching signed tag:
+
+```sh
+git tag -s v6.8.0-1 -m 'Oxygen Accent 6.8.0-1'
+git push origin v6.8.0-1
+```
+
+GitHub Actions packages both themes and publishes the release after both archives upload. `./package.sh` creates the same archives locally in `dist/`. The archives include license texts and copyright notices.
+
+KDE Store downloads point to the latest GitHub release. New releases update those downloads automatically. The Store's displayed version and changelog still need manual edits because it does not provide a supported publishing API. Existing installations need to be updated manually.
+
 ## Remove
 
 Switch to another Plasma style and icon theme, then delete the two installed copies:
@@ -67,4 +86,4 @@ The Plasma artwork comes from [Oxygen](https://invent.kde.org/plasma/oxygen/-/tr
 
 The icons use LGPL-3.0-or-later. They use raster artwork from Oxygen Icons 6.31 and [upstream SVG sources](https://github.com/KDE/oxygen-icons/tree/e8f611eff071966bc3522c355673b380d525e5ba/scalable).
 
-The installer uses the MIT license. See [LICENSES](LICENSES) and [REUSE.toml](REUSE.toml) for the license texts and artwork credits.
+The installer and packaging script use the MIT license. See [LICENSES](LICENSES) and [REUSE.toml](REUSE.toml) for the license texts and artwork credits.

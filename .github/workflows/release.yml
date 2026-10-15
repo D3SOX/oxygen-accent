@@ -1,0 +1,39 @@
+# SPDX-License-Identifier: CC0-1.0
+# SPDX-FileCopyrightText: 2026 D3SOX
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Package both themes
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: ./package.sh "$RELEASE_TAG"
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          gh release create "$RELEASE_TAG" \
+            dist/oxygen-accent-plasma.tar.gz dist/oxygen-accent-icons.tar.gz \
+            --verify-tag --draft --title "Oxygen Accent ${RELEASE_TAG#v}" --generate-notes
+          gh release edit "$RELEASE_TAG" --draft=false --latest
