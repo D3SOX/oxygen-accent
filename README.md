@@ -69,7 +69,11 @@ git push origin v6.8.0-1
 
 GitHub Actions packages both themes and publishes the release after both archives upload. `./package.sh` creates the same archives locally in `dist/`. The archives include license texts and copyright notices.
 
-KDE Store downloads point to the latest GitHub release. New releases update those downloads automatically. The Store's displayed version and changelog still need manual edits because it does not provide a supported publishing API. Existing installations need to be updated manually.
+After the GitHub release succeeds, the workflow adds a file entry to each KDE Store listing with its version and a fixed GitHub download URL. It also updates the listing's version and changelog. Older file entries keep their original URLs. Reruns reuse an existing entry for the same version.
+
+Add `KDE_STORE_USERNAME` and `KDE_STORE_PASSWORD` to the repository's Actions secrets with your OpenDesktop login. The publisher signs in with a temporary headless browser. It uses the Store website's form endpoints because there is no documented publishing API. Website changes or a bot challenge can stop publishing. The job fails if it cannot verify the saved version and URL.
+
+If Store publishing fails, fix the cause and rerun the failed job. The GitHub release remains available. You can also run the Release workflow manually with an existing tag.
 
 ## Remove
 
@@ -88,4 +92,4 @@ The Plasma artwork comes from [Oxygen](https://invent.kde.org/plasma/oxygen/-/tr
 
 The icons use LGPL-3.0-or-later. They use raster artwork from Oxygen Icons 6.31 and [upstream SVG sources](https://github.com/KDE/oxygen-icons/tree/e8f611eff071966bc3522c355673b380d525e5ba/scalable).
 
-The installer and packaging script use the MIT license. See [LICENSES](LICENSES) and [REUSE.toml](REUSE.toml) for the license texts and artwork credits.
+The scripts use the MIT license. See [LICENSES](LICENSES) and [REUSE.toml](REUSE.toml) for the license texts and artwork credits.
