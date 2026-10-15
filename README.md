@@ -6,7 +6,7 @@ The icon theme covers folders, Dolphin, navigation arrows, and standard toolbar 
 
 ## Install
 
-You need KDE Plasma 6 and the Oxygen icon pack. On Arch Linux, install the `oxygen-icons` package if you don't have it.
+You need KDE Plasma 6.8 or newer and the Oxygen icon pack. On Arch Linux, install the `oxygen-icons` package if you don't have it.
 
 ```sh
 git clone https://github.com/D3SOX/oxygen-accent.git
@@ -14,7 +14,7 @@ cd oxygen-accent
 ./install.sh
 ```
 
-The installer uses `~/.local/share`, or `$XDG_DATA_HOME` if set. It backs up any existing Oxygen Accent copies and prints the backup path.
+The installer uses `~/.local/share`, or `$XDG_DATA_HOME` if set. It backs up any existing Oxygen Accent copies and prints the backup path. To update an existing installation, run `git pull --ff-only` and `./install.sh` again.
 
 In System Settings:
 
@@ -51,7 +51,7 @@ rm -rf -- "$data_dir/plasma/desktoptheme/oxygen-accent" "$data_dir/icons/oxygen-
 
 The Oxygen Project and KDE created the original artwork. D3SOX added the accent support.
 
-The Plasma artwork comes from [Oxygen](https://invent.kde.org/plasma/oxygen/-/tree/master/desktoptheme/oxygen) 6.7.91 and uses GPL-3.0-or-later.
+The Plasma artwork comes from [Oxygen](https://invent.kde.org/plasma/oxygen/-/tree/v6.8.0/desktoptheme/oxygen) 6.8.0 and uses GPL-3.0-or-later.
 
 The icons use LGPL-3.0-or-later. They use raster artwork from Oxygen Icons 6.31 and [upstream SVG sources](https://github.com/KDE/oxygen-icons/tree/e8f611eff071966bc3522c355673b380d525e5ba/scalable).
 
