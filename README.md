@@ -2,7 +2,19 @@
 
 Oxygen Accent makes Oxygen's Plasma lighting and blue icon details follow your KDE accent color. Both appear as **Oxygen Accent** in System Settings. The original Oxygen themes stay untouched.
 
-The icon theme covers folders, Dolphin, navigation arrows, and standard toolbar symbols. It inherits the remaining icons from Oxygen. Application logos, named folder colors, and colored status badges keep their original colors.
+The icon theme inherits unchanged icons from Oxygen. Application logos, named folder colors, and colored status badges keep their original colors.
+
+## What this fork adds
+
+This comparison uses Oxygen 6.8.0 and Oxygen Icons 6.31.
+
+| Component | Upstream support | Oxygen Accent |
+| --- | --- | --- |
+| Window decorations | Active-window glows follow the accent color by default. | Uses the upstream Oxygen decoration. |
+| Plasma style | Some controls use palette colors, but panel and task glows still have fixed white gradients. | Makes decorative lighting, glows, and gradients follow the system highlight color. |
+| Icons | Default folders and many interface symbols keep their original blue. | Makes folders, Dolphin, navigation arrows, and standard toolbar symbols follow the accent color. |
+
+See upstream's [window-glow settings](https://invent.kde.org/plasma/oxygen/-/blob/v6.8.0/liboxygen/oxygenactiveshadowconfigdata.kcfg) and [panel artwork](https://invent.kde.org/plasma/oxygen/-/blob/v6.8.0/desktoptheme/oxygen/widgets/panel-background.svg). Upstream tracks folder accent support in [bug #523683](https://bugs.kde.org/show_bug.cgi?id=523683).
 
 ## Install
 
