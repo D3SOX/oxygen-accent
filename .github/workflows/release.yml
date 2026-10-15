@@ -12,6 +12,10 @@ on:
         description: Existing release tag, for example v6.8.0-1
         required: true
         type: string
+      publish:
+        description: Publish the release after packaging
+        default: true
+        type: boolean
 
 permissions:
   contents: read
@@ -22,7 +26,7 @@ concurrency:
 
 jobs:
   release:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     permissions:
       contents: write
     steps:
@@ -35,6 +39,7 @@ jobs:
           RELEASE_TAG: ${{ inputs.tag || github.ref_name }}
         run: ./package.sh "$RELEASE_TAG"
       - name: Publish release
+        if: github.event_name != 'workflow_dispatch' || inputs.publish
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}

@@ -22,6 +22,8 @@ You need KDE Plasma 6.8 or newer and the Oxygen icon pack. On Arch Linux, instal
 
 Download the Plasma style or icon archive from [the latest release](https://github.com/D3SOX/oxygen-accent/releases/latest). Use **Install from File** under Plasma Style or Icons in System Settings.
 
+KDE Store listings: [Plasma style](https://store.kde.org/p/2378747) and [icons](https://store.kde.org/p/2378748).
+
 To install both from source:
 
 ```sh
