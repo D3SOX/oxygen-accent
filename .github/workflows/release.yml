@@ -89,4 +89,5 @@ jobs:
           RELEASE_TAG: ${{ inputs.tag || github.ref_name }}
           KDE_STORE_USERNAME: ${{ secrets.KDE_STORE_USERNAME }}
           KDE_STORE_PASSWORD: ${{ secrets.KDE_STORE_PASSWORD }}
-        run: node .github/scripts/kde-store.mjs
+          KDE_STORE_HEADED: '1'
+        run: xvfb-run --auto-servernum node .github/scripts/kde-store.mjs

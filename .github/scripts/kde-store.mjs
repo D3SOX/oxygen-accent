@@ -118,16 +118,23 @@ async function main() {
   const username = process.env.KDE_STORE_USERNAME;
   if (!password || !username) throw new Error('Add KDE_STORE_USERNAME and KDE_STORE_PASSWORD to the repository Actions secrets before publishing.');
   const { chromium } = await import('playwright');
-  const browser = await chromium.launch();
+  const browser = await chromium.launch({ headless: process.env.KDE_STORE_HEADED !== '1' });
   try {
     const page = await browser.newPage();
     page.setDefaultTimeout(120_000);
+    console.log('Opening the KDE Store login page.');
     await page.goto('https://store.kde.org/login/', { waitUntil: 'domcontentloaded' });
+    try {
+      await page.locator('input[name="mail"]').waitFor();
+    } catch {
+      throw new Error(`Store login form was unavailable. Page title: ${await page.title()}`);
+    }
     await page.locator('input[name="mail"]').fill(username);
     await page.locator('input[name="password"]').fill(password);
     await page.locator('#login').click();
     await page.waitForURL((url) => !url.pathname.startsWith('/login'), { waitUntil: 'domcontentloaded' });
     for (const download of downloads) {
+      console.log(`Updating Store product ${download.id} to ${download.version}.`);
       await page.goto(`https://store.kde.org/p/${download.id}/edit`, { waitUntil: 'domcontentloaded' });
       await page.locator('#add-product-form').waitFor();
       console.log(await page.evaluate(publishProduct, { ...download, dryRun: process.argv.includes('--dry-run') }));

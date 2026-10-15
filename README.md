@@ -71,7 +71,7 @@ GitHub Actions packages both themes and publishes the release after both archive
 
 After the GitHub release succeeds, the workflow adds a file entry to each KDE Store listing with its version and a fixed GitHub download URL. It also updates the listing's version and changelog. Older file entries keep their original URLs. Reruns reuse an existing entry for the same version.
 
-Add `KDE_STORE_USERNAME` and `KDE_STORE_PASSWORD` to the repository's Actions secrets with your OpenDesktop login. The publisher signs in with a temporary headless browser. It uses the Store website's form endpoints because there is no documented publishing API. Website changes or a bot challenge can stop publishing. The job fails if it cannot verify the saved version and URL.
+Add `KDE_STORE_USERNAME` and `KDE_STORE_PASSWORD` to the repository's Actions secrets with your OpenDesktop login. The publisher signs in with a temporary browser in a virtual display. It uses the Store website's form endpoints because there is no documented publishing API. Website changes or a bot challenge can stop publishing. The job fails if it cannot verify the saved version and URL.
 
 If Store publishing fails, fix the cause and rerun the failed job. The GitHub release remains available. You can also run the Release workflow manually with an existing tag.
 
